@@ -21,7 +21,7 @@ Your solution should check for missing data and for misaligned data.  This will 
 
 Bad data should not be corrected, but should simply be removed from the record (*i.e.*, you can remove the entire record for that time step or fill in blanks for the bad data.  Some PMUs recorded data at a different interval from the others, though, and these data are not invalid.  (Examine the files to see what this means.)
 
-Compose a SQL script to process the data into a clean database.  Your script should load each file, filter out bad data according to the criteria given above, and export a cleaned-up version in a _single_ database file.  (You do not need to submit the cleaned database, as the script should be able to produce it on demand.)
+Compose a SQL script to process the data into a clean database.  Your script should load each file, filter out bad data according to the criteria given above, and export a cleaned-up version in a _single_ database file.  (You do not need to submit the cleaned database, as the script should be able to produce it on demand given the CSV files in the same directory.)
 
 ## Progress & Completion
 
