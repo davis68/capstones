@@ -80,3 +80,12 @@ KALN	-90.05	+38.88	72
 ```
 
 with the current temperature added as a fourth column at `stdout` standard output.  The weather data should be retrieved from [the National Weather Service](https://www.nws.noaa.gov/mdl/gfslamp/bull/lavlamp.txt) in real time for the current temperature (row `TMP`), typically the first column (hour in `UTC`).
+
+## Progress & Completion
+
+You should fork this project and work exclusively in the `python/` folder.  We expect you to compose four scripts:
+
+- `grab-stations.py` as described above.
+- `grab-forecast.py` as described above.
+- `test-grab-stations.py` with appropriate unit tests to make sure functions work as they should.
+- `test-grab-forecast.py` with appropriate unit tests to make sure functions work as they should.
