@@ -4,7 +4,9 @@
 
 This capstone project is built around using Python to collect data from a remote source, parse the data by passing it between transformative scripts, and finally plot the data.
 
-![](./illinois-2020-07-16.png){: width=25%}
+We will use current temperature data for the State of Illinois.
+
+![](./illinois-2020-07-16.png)
 
 ## Target Usage
 
