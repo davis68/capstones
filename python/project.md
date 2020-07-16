@@ -75,4 +75,4 @@ KALN	-90.05	+38.88	72
 ...
 ```
 
-with the current temperature added as a fourth column at `stdout` standard output.  The weather data should be retrieved from [the National Weather Service](https://www.nws.noaa.gov/mdl/gfslamp/lavlamp.shtml) in real time for the current temperature (row `TMP`).
+with the current temperature added as a fourth column at `stdout` standard output.  The weather data should be retrieved from [the National Weather Service](https://www.nws.noaa.gov/mdl/gfslamp/bull/lavlamp.txt) in real time for the current temperature (row `TMP`), typically the first column (hour in `UTC`).
